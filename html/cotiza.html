@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles-cotizacion.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="shortcut icon" href="../img/icon.png" />
+    <title>Cotización | Pupusería</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="../img/menu.png" width="100px" alt="Logo pupusería C.R.O">
+            <ul>
+                <li class="colors"><a href="../index.html">Inicio</a></li>
+                <li class="colors"><a href="nosotros.html">Nosotros</a></li>
+                <li class="colors"><a href="combos.html">Combos</a></li>
+                <li class="colors"><a href="#" class="active">Cotización</a></li>
+            <ul>
+        </nav>
+    </header>
+    <section class="espace">
+
+    
+        <div id="chooser-container">
+            <h1>Escoge uno de los menús a cotizar</h1>
+            <h4>Genera tu historial de cotizaciones a partir de 2 cotizaciones realizadas</h4>
+            <!--Para que solo se escoja nada mas un radio button es de ponerle el mismo name, para que solo escoja una opcion de todas-->
+            <form id="form">
+            
+                    <input type="radio"  id="opt1" name="number1" value="number1">
+                    <label for="opt1">Menú 1</label>
+        
+            
+                    <input type="radio" id="opt2" name="number1" value="number2">
+                    <label for="opt2">Menú 2</label>
+                
+                    
+                    <input type="radio" id="opt3" name="number1" value="number3">
+                    <label for="opt3">Menú 3</label>
+                
+                    
+                    <input type="radio" id="opt4" name="number1" value="number4">
+                    <label for="opt4">Menú 4</label>
+                    
+                    
+                    <input type="radio" id="opt5"  name="number1" value="number5">
+                    <label for="opt5">Menú 5</label>
+            
+            
+            <div id="buttons">
+                <input type="submit" class="boton1" id="submit" value="Seleccionar" onclick = "validacion()">
+                <input type="reset" value ="Limpiar" onclick="clean()"></input>
+            </div>
+        
+            </form>
+            <h1 id="msg"></h1>
+            <div id="text-container">
+
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <div class="barrera">
+        <div class="footer">
+            <div>
+
+                </div>
+                <div class="footer-bottom">
+                <img src="../img/cro_blanco.png" alt="cro" width="100px" class="cro_footer">
+                <h2>Copyright© 2021 Pupusería C.R.O - Todos los derechos reservados</h2>
+                <div class="socials">
+                    <h5>Síguenos en:</h5>
+                    <a href="https://www.twitter.com/" target="_blank" class="twitter"></a>
+                    <a href="https://www.instagram.com/" target="_blank" class="insta"></a>
+                    <a href="https://www.youtube.com/" target="_blank" class="youtube"></a>
+                    <a href="https://www.facebook.com/" target="_blank" class="facebook"></a>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+      <script src="../js/processor.js"></script>
+</body>
+</html>

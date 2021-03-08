@@ -1,0 +1,339 @@
+*{
+  	   
+}
+
+body {
+    background-color: #ddd;
+    
+  }
+  
+#appetizer{
+  margin-bottom: 8%;
+}
+.section {
+  
+    padding: 25px 0; 
+  } 
+.foodCategory {
+    text-align: center;
+    width: 100%;
+    font-size: 5em; 
+    padding: 30px 0; 
+}
+.foodItem { 
+    float: left;
+    width: 100%;
+    padding: 10px 20px; 
+    transition: 0.4s;
+}
+.foodItem .img{
+    margin-top: 5%;
+    width: 100%;
+    border-radius: 2% 2% 2% 2%;
+    padding: 90px 20px;
+}
+.foodItem #img1{ background-image: url('../img/combo1.jpg');  background-size: 100%;  background-color: black;}
+.foodItem #img2{ background-image: url('../img/combo2.jpg');  background-size: 100%;  background-color: black;}
+.foodItem #img3{ background-image: url('../img/combo3.jpg');  background-size: 100%;  background-color: black;}
+.foodItem #img4{ background-image: url('../img/combo4.jpg');  background-size: 100%;  background-color: black;}
+.foodItem #img5{ background-image: url('../img/combo5.jpg');  background-size: 100%;  background-color: black;}
+
+.foodItem .vermas{
+  margin-top: 2%;
+  margin-right: 30%;
+  margin-left: 30%;
+  text-align: center;
+}
+.foodItem .vermas div{
+  padding: 2%;
+  color: white;
+  border-radius: 3px 3px 3px 3px;
+  background-color: red;
+  transition: 0.4s;
+}
+.foodItem .vermas a{
+  text-decoration: none ;
+}
+.foodItem .vermas:hover div{
+  color:red;
+  background-color: white;
+  
+}
+
+.foodItem:hover{
+    transform: scale(1.03);
+}
+.foodCategory{
+    margin-top: 8%;
+    font-size: 3vw;
+}
+.combos{
+    margin: 0 5% 0 5% ;
+    
+  }
+.combos *{
+  box-sizing: border-box; 
+    overflow-x: hidden;
+}
+.foodItem h4 {
+    color: #E1103B;
+    font-family: 'Segoe Ui'; 
+}
+.foodItem h5 { 
+    margin-top: 10px; 
+}
+
+@media (min-width:461px)  {
+.foodItem { 
+    width: 50%; }
+  }
+
+@media (min-width:961px)  {
+.foodItem { 
+    width: 33.3333%; }
+}
+/* MODAL */
+.awesome-modal {
+    display: none;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 0 26px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 1rem;
+    width: 100%;
+    max-width: 85%;
+    height: 100%;
+    max-height: 70vh;
+    overflow-y: visible;
+    overflow-x:hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    z-index: 999;
+    -webkit-animation: bounce 0.4s ease forwards;
+            animation: bounce 0.4s ease forwards;
+
+            
+  }
+  .imagen img {
+    float: left;
+    margin: 10px;
+    padding: 0px;
+    width: 100px;
+}
+
+/* MODAL WEBKIT */
+
+.awesome-modal::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.awesome-modal::-webkit-scrollbar:vertical {
+    width:12px;
+}
+
+.awesome-modal::-webkit-scrollbar-button:increment,.awesome-modal::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.awesome-modal::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.awesome-modal::-webkit-scrollbar-thumb {
+    background-color: #fd0303;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+.awesome-modal::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+  .awesome-modal * {
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+  }
+
+
+
+/* MODALLLL */
+  
+  .awesome-overlay {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 998;
+    overflow: hidden;
+    cursor: default;
+    
+  }
+  
+  .close-icon {
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    top: 0.7rem;
+    right: 0.7rem;
+    transition: opacity 0.2s ease;
+  }
+  .close-icon::before, .close-icon::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: inherit;
+    height: 3px;
+    background-color: #999;
+  }
+  .close-icon::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  .close-icon::after {
+    transform: translate(-50%, -50%) rotate(135deg);
+  }
+  
+  .modal-title {
+    margin-top: 0;
+    font-size: 2rem;
+    color: #fd0303;
+  }
+
+  /* MODAL info */
+.flex{
+  display: flex;
+  margin: 5%;
+
+  justify-content: center;
+}
+.personaje-foto{
+  width: 80%;
+  border: solid 1px black;
+  height: auto;
+  padding: 2%;
+ 
+}
+.personaje-foto img{
+  border-radius: 8px 8px 8px 8px;
+}
+.dere{
+  margin-top: 2%;
+  margin-right: 5%;
+}
+.postres{
+  display: flex;
+
+  justify-content: center;
+}
+.imagen img {
+  float: left;
+  margin: 10px;
+  padding: 0px;
+  width: 234px;
+  height: 349px;
+  
+}
+
+.modal .vermas{
+  margin-top: 2%;
+  margin-right: 40%;
+  margin-left: 40%;
+  text-align: center;
+}
+.modal .vermas div{
+  padding: 2%;
+  color: white;
+  border-radius: 3px 3px 3px 3px;
+  background-color: red;
+  transition: 0.4s;
+}
+.modal .vermas a{
+  text-decoration: none ;
+}
+.modal .vermas:hover div{
+  color:red;
+  background-color: white;
+  
+}
+
+.izqui{
+  margin-top: 1%;
+  margin: 1%;
+  margin-right: 10%;
+  border-radius: 8px 8px 8px 8px;
+  padding: 8% 8%; 
+}
+.flex #izqui1{ background-image: url('../img/combo1.jpg');  background-size: cover; background-position: center; background-color: black;}
+.flex #izqui2{ background-image: url('../img/cro.jpg');  background-size: cover; background-position: center; background-color: black;}
+.flex #izqui3{ background-image: url('../img/combo3.jpg');  background-size: cover; background-position: center; background-color: black;}
+.flex #izqui4{ background-image: url('../img/combo4.jpg');  background-size: cover; background-position: center; background-color: black;}
+.flex #izqui5{ background-image: url('../img/combo5.jpg');  background-size: cover; background-position: center; background-color: black;}
+
+
+/* margin-top: 5%;
+    width: 100%;
+    border-radius: 2% 2% 2% 2%;
+    padding: 90px 20px; */
+.postres .postre{
+  margin-top: 1%;
+  margin: 1%;
+  border-radius: 8px 8px 8px 8px;
+  padding: 8%;
+}
+.postres #postre1{ background-image: url('../img/flan.jpg');  background-size: cover; background-position: center; background-color: black;}
+.postres #postre2{ background-image: url('../img/chocolate.jpg');  background-size: cover; background-position: center; background-color: black;}
+.postres #postre3{ background-image: url('../img/postre3.jpg');  background-size: cover; background-position: center; background-color: black;}
+.postres #postre4{ background-image: url('../img/postre4.jpg');  background-size: cover; background-position: center; background-color: black;}
+.postres #postre5{ background-image: url('../img/postre5.jpg');  background-size: cover; background-position: center; background-color: black;}
+.postres #postre6{ background-image: url('../img/postre6.jpg');  background-size: cover; background-position: center; background-color: black;}
+.postres #postre7{ background-image: url('../img/postre7.jpg');  background-size: cover; background-position: center; background-color: black;}
+.postres #postre8{ background-image: url('../img/postre8.jpg');  background-size: cover; background-position: center; background-color: black;}
+.postres #postre9{ background-image: url('../img/postre9.jpg');  background-size: cover; background-position: center; background-color: black;}
+.postres #postre10{ background-image: url('../img/postre10.jpg');  background-size: cover; background-position: center; background-color: black;}
+  
+
+:target {
+    display: block;
+  }
+  :target ~ .awesome-overlay {
+    display: block;
+  }
+  
+  @-webkit-keyframes bounce {
+    0% {
+      transform: translate3d(-50%, -50%, 0) scale(0.7);
+    }
+    45% {
+      transform: translate3d(-50%, -50%, 0) scale(1.05);
+    }
+    80% {
+      transform: translate3d(-50%, -50%, 0) scale(0.95);
+    }
+    100% {
+      transform: translate3d(-50%, -50%, 0) scale(1);
+    }
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translate3d(-50%, -50%, 0) scale(0.7);
+    }
+    45% {
+      transform: translate3d(-50%, -50%, 0) scale(1.05);
+    }
+    80% {
+      transform: translate3d(-50%, -50%, 0) scale(0.95);
+    }
+    100% {
+      transform: translate3d(-50%, -50%, 0) scale(1);
+    }
+  }
+  #close {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+  }

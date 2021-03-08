@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background: url(../img/ciudad_gris.jpg);
+    background-size: 80%;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+html, body {
+    height: 100%;
+  }
+li{
+    list-style: none;
+}
+/* -------------------------------- */
+.espace{
+    
+    padding-top: 5%;
+}
+.barrera{
+    
+}
+
+#chooser-container {
+    width:50%;
+    
+    padding:5%;
+    background-color:#ddd;
+    margin-top:20px; 
+    margin-bottom:20px;
+    margin-left: 25%;
+    text-align: center;
+}
+/* #chooser-container h4{
+    margin-left:100px;
+}
+#chooser-container h1{
+    margin-left:110px;
+} */
+/* #chooser-container form{
+    display:inline-flex;
+} */
+#chooser-container input[type^="radio"]{
+    margin-top:20px;
+    /* margin-left:50px; */
+}
+label{
+    margin-top:15px;
+}
+#buttons{
+    /* margin-left:-340px; */
+    margin-top:70px;
+    margin-bottom:20px;
+}
+
+input[class^="boton1"]{
+    border: 1px solid black;
+    background: black;
+    color: white;
+    height:50px;
+    width:100px;
+    margin-right:10px;
+    margin-left:10px;
+    transition: 0.5s;
+}
+input[type^="reset"]{
+    border: 1px solid black;
+    background: transparent;
+    height:50px;
+    width:100px;
+    transition: 0.5s;
+}
+input[type^="submit"]:hover{
+    cursor: pointer;
+    background: white;
+    color:black;
+}
+input[type^="reset"]:hover{
+    background: red;
+    cursor: pointer;
+    color:white
+}
+input[class^="boton2"]{
+    color:white;
+    border: 1px solid black;
+    background: black;
+    height:30px;
+    width:100px;
+    transition: 0.5s;
+}
+input[class^="boton2"]{
+    color:white;
+    border: 1px solid black;
+    background: red;
+    height:30px;
+    width:100px;
+    transition: 0.5s;
+}
+#msg{
+    color:red;
+    position:relative;
+    font-size:1em;
+    margin-left:200px;
+    width:500px;
+}
+#image{
+    width:100%;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+#info{
+    margin-top: 5%;
+    border: solid 1px black;
+    padding: 5%;
+}
+#info p{
+    margin-left:20px;
+}
+#nota{
+    color:red;
+}
+#description{
+    margin-left:10px;
+    margin-top:10px;
+}
+#descrip-elements{
+    margin-left:20px;
+}
+aside{
+    background-color:red;
+    width:100px;
+
+}
+#nombre-formOpc1, #correo-formOpc1, #cantidad-formOpc1{
+    padding:10px;
+    margin-right:10px;
+ 
+}
+#nombre-formOpc2, #correo-formOpc2, #cantidad-formOpc2{
+    padding:10px;
+    margin-right:10px;
+
+}
+#nombre-formOpc3, #correo-formOpc3, #cantidad-formOpc3{
+    padding:10px;
+    margin-right:10px;
+
+}
+#nombre-formOpc4, #correo-formOpc4, #cantidad-formOpc4{
+    padding:10px;
+    margin-right:10px;
+
+}
+#nombre-formOpc5, #correo-formOpc5, #cantidad-formOpc5{
+    padding:10px;
+    margin-right:10px;
+ 
+}
+
+input[type^="text"]{
+    color:white;
+    border: 1px solid black;
+    background: black;
+    height:30px;
+    width:200px;
+    transition: 0.5s;
+}
+input[type^="email"]{
+    margin: 5%;
+    color:white;
+    border: 1px solid black;
+    background: black;
+    height:30px;
+    width:200px;
+    transition: 0.5s;
+}
